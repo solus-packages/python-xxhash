@@ -1,0 +1,18 @@
+name       : python-xxhash
+version    : 1.0.0
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/d9/41/cb1449b72bd089cff9d84f200e8f61125f4643eab1694b6e57beebd3aa32/xxhash-1.0.0.tar.gz : 9b736af6935424ee7814644ee77c3443b90b0f349249e9bc8a1f7ed1a82f6350
+license    : BSD-2-Clause
+component  : programming.python
+summary    : Python binding for xxHash
+description: |
+    xxhash is a Python binding for the xxHash library.
+builddeps  :
+    - pkgconfig(python3)
+rundeps    :
+    - xxhash
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
