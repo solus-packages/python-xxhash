@@ -1,8 +1,8 @@
 name       : python-xxhash
-version    : 1.0.0
-release    : 1
+version    : 1.3.0
+release    : 2
 source     :
-    - https://files.pythonhosted.org/packages/d9/41/cb1449b72bd089cff9d84f200e8f61125f4643eab1694b6e57beebd3aa32/xxhash-1.0.0.tar.gz : 9b736af6935424ee7814644ee77c3443b90b0f349249e9bc8a1f7ed1a82f6350
+    - https://files.pythonhosted.org/packages/source/x/xxhash/xxhash-1.3.0.tar.gz : fe21f23a9d05428c75461790b670f2bf15f50a632d6c171a7e7b588269c619e6
 license    : BSD-2-Clause
 component  : programming.python
 summary    : Python binding for xxHash
@@ -16,3 +16,5 @@ build      : |
     %python3_setup
 install    : |
     %python3_install
+check      : |
+    %python3_test
