@@ -1,6 +1,6 @@
 name       : python-xxhash
 version    : 2.0.0
-release    : 5
+release    : 6
 source     :
     - https://github.com/ifduyue/python-xxhash/releases/download/v2.0.0/xxhash-2.0.0.tar.gz : 58ca818554c1476fa1456f6cd4b87002e2294f09baf0f81e5a2a4968e62c423c
 license    : BSD-2-Clause
