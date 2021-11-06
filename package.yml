@@ -1,8 +1,8 @@
 name       : python-xxhash
-version    : 2.0.0
-release    : 6
+version    : 2.0.2
+release    : 7
 source     :
-    - https://github.com/ifduyue/python-xxhash/releases/download/v2.0.0/xxhash-2.0.0.tar.gz : 58ca818554c1476fa1456f6cd4b87002e2294f09baf0f81e5a2a4968e62c423c
+    - https://github.com/ifduyue/python-xxhash/archive/refs/tags/v2.0.2.tar.gz : 14d93743bb6336fb6f89574f1ac7810b6c38e02ecb2354584d9b3dd8ad50f2b2
 license    : BSD-2-Clause
 component  : programming.python
 summary    : Python binding for xxHash
